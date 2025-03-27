@@ -3,7 +3,7 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDnlW1kmpWleXB7KKcFR_NggSf0iPpkh5g",
+  apiKey: process.env.FIREBASE_API_KEY,
   authDomain: "ai-baydin.firebaseapp.com",
   projectId: "ai-baydin",
   storageBucket: "ai-baydin.appspot.com",
